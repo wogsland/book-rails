@@ -1,7 +1,6 @@
 # book-rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple Rails app for listing & rating books.
 
 Things you may want to cover:
 
@@ -21,6 +20,7 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment Instructions
-The master branch deploys automagically to Heroku at .
+
+The master branch deploys automagically to Heroku at https://book-rails-2017.herokuapp.com/.
 
 * ...
