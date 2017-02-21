@@ -1,5 +1,9 @@
 # book-rails
 
+[![Code Climate](https://codeclimate.com/github/wogsland/book-rails/badges/gpa.svg)](https://codeclimate.com/github/wogsland/book-rails)
+
+[![Build Status](https://travis-ci.org/wogsland/book-rails.svg?branch=master)](https://travis-ci.org/wogsland/book-rails)
+
 A simple Rails app for listing & rating books.
 
 Things you may want to cover:
