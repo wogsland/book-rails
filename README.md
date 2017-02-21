@@ -11,9 +11,15 @@ Things you may want to cover:
 
 * Configuration
 
-* Database creation
+    bundle install
 
-* Database initialization
+* Database creation & initialization
+
+This project is using [PostgreSQL](https://postgresapp.com/). Once you've set up
+the app, to create the database run
+
+    bin/rails db:create
+    bin/rails db:migrate
 
 * How to run the test suite
 
@@ -22,5 +28,3 @@ Things you may want to cover:
 * Deployment Instructions
 
 The master branch deploys automagically to Heroku at https://book-rails-2017.herokuapp.com/.
-
-* ...
