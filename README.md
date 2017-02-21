@@ -1,7 +1,6 @@
 # book-rails
 
 [![Code Climate](https://codeclimate.com/github/wogsland/book-rails/badges/gpa.svg)](https://codeclimate.com/github/wogsland/book-rails)
-
 [![Build Status](https://travis-ci.org/wogsland/book-rails.svg?branch=master)](https://travis-ci.org/wogsland/book-rails)
 
 A simple Rails app for listing & rating books.
@@ -26,6 +25,8 @@ the app, to create the database run
     bin/rails db:migrate
 
 * How to run the test suite
+
+Travis CI does this automagically with every push to the master branch.
 
 * Services (job queues, cache servers, search engines, etc.)
 
