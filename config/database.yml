@@ -22,6 +22,8 @@ test:
 
 production:
   adapter: postgresql
-  database: postgresql-trapezoidal-36068
+  database: myapp_production
+  username: myapp
+  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
   pool: 5
   timeout: 5000
