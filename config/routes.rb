@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  get 'pg_welcome/index'
+  get 'book/update'
 
-  get 'welcome/index'
-
+  get 'book/add'
+  get 'book/list'
   root 'welcome#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
