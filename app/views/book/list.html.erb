@@ -28,23 +28,13 @@
           <th>Rating</th>
           <th>Added</th>
         </tr>
+      <% @books.each do |book| %>
         <tr>
-          <td>Surely You're Joking, Mr. Feynman</td>
-          <td>Richard Feynman</td>
-          <td>5</td>
-          <td>2/21/2017</td>
+          <td><%= book.title %></td>
+          <td><%= book.author %></td>
+          <td><%= book.rating %></td>
+          <td><%= book.created_at.strftime("%m/%d/%Y") %></td>
         </tr>
-        <tr>
-          <td>Their Eyes Were Watching God</td>
-          <td>Zora Neal Hurston</td>
-          <td>0</td>
-          <td>2/21/2017</td>
-        </tr>
-        <tr>
-          <td>Cours d'Alg&egrave;bre</td>
-          <td>Ren&eacute;e Elkik</td>
-          <td>4</td>
-          <td>2/21/2017</td>
-        </tr>
+      <% end %>
       </table>
     </div>
