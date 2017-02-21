@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pg_welcome/index'
+
   get 'welcome/index'
 
   root 'welcome#index'
