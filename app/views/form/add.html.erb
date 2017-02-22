@@ -1,0 +1,6 @@
+<%= @book.title = if defined? params[:title] then params[:title] else "untitled" end %>
+<%= @book.author = if defined? params[:author] then params[:author] else "" end %>
+<%= @book.rating = if defined? params[:rating] then params[:rating] else 0 end %>
+<%= @book.save %>
+
+<meta http-equiv="Refresh" content="0; url=/book/list">
