@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'form/add'
+
   get 'form/update'
 
   get 'book/update'

@@ -10,8 +10,6 @@ Things you may want to cover:
 * Ruby version
 2.2.2
 
-* System dependencies
-
 * Configuration
 
     bundle install
@@ -27,8 +25,6 @@ the app, to create the database run
 * How to run the test suite
 
 Travis CI does this automagically with every push to the master branch.
-
-* Services (job queues, cache servers, search engines, etc.)
 
 * Deployment Instructions
 

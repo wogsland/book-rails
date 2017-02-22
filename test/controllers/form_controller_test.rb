@@ -6,4 +6,9 @@ class FormControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should get add" do
+    get form_add_url
+    assert_response :success
+  end
+
 end
