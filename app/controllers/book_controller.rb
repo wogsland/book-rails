@@ -7,5 +7,6 @@ class BookController < ApplicationController
   end
 
   def update
+    @book = Book.find_by(id: params[:id])
   end
 end
